@@ -2,7 +2,7 @@ import React from "react";
 
 //Components
 import Poster from "../components/Poster/poster.component";
-import PlaysFilter from "../components/PlaysFilters/PlaysFilters.component";
+import Filters from "../components/Filters/Filters.component";
 
 const Plays = () => {
     return (
@@ -35,27 +35,27 @@ const Plays = () => {
                     <div className="lg:w-3/12 ">
                         <h2 className="text-2xl font-bold mb-4">Filter</h2>
                         <div>
-                            <PlaysFilter title="Date" tags={["Today", "Tomorrow", "This Weekend"]}/>
+                            <Filters title="Date" tags={["Today", "Tomorrow", "This Weekend"]}/>
                         </div>
 
                         <div>
-                            <PlaysFilter title="Language" tags={["Hindi", "Marathi", "English"]}/>
+                            <Filters title="Language" tags={["Hindi", "Marathi", "English"]}/>
                         </div>
 
                         <div>
-                            <PlaysFilter title="Categories" tags={["Theatre"]}/>
+                            <Filters title="Categories" tags={["Theatre"]}/>
                         </div>
 
                         <div>
-                            <PlaysFilter title="Genres" tags={["Drama", "Adaptation", "Comedy", "Historical","Mythological","Online Streaming Plays"]}/>
+                            <Filters title="Genres" tags={["Drama", "Adaptation", "Comedy", "Historical","Mythological","Online Streaming Plays"]}/>
                         </div>
 
                         <div>
-                            <PlaysFilter title="More Filters" tags={["Online Streming", "Kids Allowed"]}/>
+                            <Filters title="More Filters" tags={["Online Streming", "Kids Allowed"]}/>
                         </div>
 
                         <div>
-                            <PlaysFilter title="Price" tags={["Free", "0-500", "501-2000", "Above 2000"]}/>
+                            <Filters title="Price" tags={["Free", "0-500", "501-2000", "Above 2000"]}/>
                         </div>
 
                         <div className="lg:flex-col-reverse items-center mt-10">

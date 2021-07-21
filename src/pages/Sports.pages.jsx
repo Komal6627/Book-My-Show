@@ -1,8 +1,9 @@
 import React from "react";
 
+
 //Components
 import Poster from "../components/Poster/poster.component";
-import PlaysFilter from "../components/PlaysFilters/PlaysFilters.component";
+import Filters from "../components/Filters/Filters.component";
 
 const Sports = () => {
     return (
@@ -36,19 +37,19 @@ const Sports = () => {
                     <div className="lg:w-3/12 ">
                         <h2 className="text-2xl font-bold mb-4">Filter</h2>
                         <div>
-                            <PlaysFilter title="Date" tags={["Today", "Tomorrow", "This Weekend"]}/>
+                            <Filters title="Date" tags={["Today", "Tomorrow", "This Weekend"]}/>
                         </div>
 
                         <div>
-                            <PlaysFilter title="Categories" tags={["E-Sports"]}/>
+                            <Filters title="Categories" tags={["E-Sports"]}/>
                         </div>
 
                         <div>
-                            <PlaysFilter title="More Filters" tags={["Online Streming", "Kids Allowed", "Kids Activities"]}/>
+                            <Filters title="More Filters" tags={["Online Streming", "Kids Allowed", "Kids Activities"]}/>
                         </div>
 
                         <div>
-                            <PlaysFilter title="Price" tags={["Free", "0-500", "501-2000", "Above 2000"]}/>
+                            <Filters title="Price" tags={["Free", "0-500", "501-2000", "Above 2000"]}/>
                         </div>
 
                         <div className="lg:flex-col-reverse items-center mt-10">
