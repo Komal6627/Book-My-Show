@@ -39,7 +39,7 @@ const Plays = () => {
                         </div>
 
                         <div>
-                            <Filters title="Language" tags={["Hindi", "Marathi", "English"]}/>
+                            <Filters title="Language" tags={[ "English","Tamil", "Telugu",]}/>
                         </div>
 
                         <div>
