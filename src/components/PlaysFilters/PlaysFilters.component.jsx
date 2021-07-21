@@ -1,5 +1,5 @@
 import { Disclosure } from '@headlessui/react'
-import { BiChevronUp ,BiChevronDown, BiChevronsDown } from "react-icons/bi";
+import { BiChevronUp ,BiChevronDown } from "react-icons/bi";
 
 const PlaysFilter = (props) =>  {
   return (

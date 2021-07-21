@@ -42,8 +42,30 @@ const Plays = () => {
                             <PlaysFilter title="Language" tags={["Hindi", "Marathi", "English"]}/>
                         </div>
 
-                    </div>
+                        <div>
+                            <PlaysFilter title="Categories" tags={["Theatre"]}/>
+                        </div>
+
+                        <div>
+                            <PlaysFilter title="Genres" tags={["Drama", "Adaptation", "Comedy", "Historical","Mythological","Online Streaming Plays"]}/>
+                        </div>
+
+                        <div>
+                            <PlaysFilter title="More Filters" tags={["Online Streming", "Kids Allowed"]}/>
+                        </div>
+
+                        <div>
+                            <PlaysFilter title="Price" tags={["Free", "0-500", "501-2000", "Above 2000"]}/>
+                        </div>
+
+                        <div className="lg:flex-col-reverse items-center mt-10">
+                            <button className="text-red-700  border-2 border-red-700 py-2 px-20 rounded">
+                                Browse by Venus
+                            </button>
+                        </div>
+                    </div>                  
                 </div>
+               
            </div>
         </>
     )
